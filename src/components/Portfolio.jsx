@@ -4,6 +4,7 @@ import p2 from "../assets/p2.jpg"
 import p3 from "../assets/p3.jpg"
 import p4 from "../assets/p4.jpg"
 import { FaGithub } from 'react-icons/fa'
+import styles from './Portfolio.module.css'
 
 export const Portfolio = () => {
     const projects = [
@@ -55,7 +56,7 @@ export const Portfolio = () => {
                                     rel="noopener noreferrer"
                                     className='flex items-center gap-2 hover:text-gray-400'
                                 >
-                                    <div className="transform hover:scale-150 transition-all duration-300">
+                                    <div className={styles.githubIcon}>
                                         <FaGithub size={25} />
                                     </div>
                                     <span>View Code</span>
