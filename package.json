@@ -7,8 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://adityachaturvedii.github.io/portfolio_website/",
   "dependencies": {
     "icons": "^1.0.0",
     "react": "^18.2.0",
